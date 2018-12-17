@@ -2,24 +2,6 @@
 //attribute to newsapi.org
 //AFFINN analysis of google news articles
 //pulls in 50 articles per request
-
-
-//Sentiment analysis is perhaps one of the most popular applications of NLP,analyzing sentiments
-//The key aspect of sentiment analysis is to analyze a body of text for understanding the opinion expressed by it. 
-//Typically, we quantify this sentiment with a positive or negative value, called polarity. 
-//The overall sentiment is often inferred as positive, neutral or negative from the sign of the polarity score.
-
-//Usually, sentiment analysis works best on text that has a subjective context than on text with only an objective context. 
-//Objective text usually depicts some normal statements or facts without expressing any emotion, feelings, or mood. 
-//While subjective text contains text that is usually expressed by a human having typical moods, emotions, and feelings, 
-
-//to understand its reception by the people and what they think of it based on their opinions or, you guessed it, sentiment!
-
-//AFFINN is a premade list of words ofEnglish words that are assigned a score. 
-//The words have been manually labeled by Finn Årup Nielsen in 2009-2011. 
-//The file is tab-separated -> found and used a converted .tsv into a json data file 
-
-
 var words;
 var articles;
 var dataIncoming;
