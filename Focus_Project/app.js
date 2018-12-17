@@ -75,7 +75,7 @@ document.getElementsByTagName("body")[0].style.background ="Gold";
     else if (40 >= totalScore && totalScore > 31) {
       document.getElementById("display").innerHTML = 'With a score of '+ totalScore +', it appears the web is fairly pleased with ' + input + '.';
     //color change
-    document.getElementsByTagName("body")[0].style.background ="pink";
+    document.getElementsByTagName("body")[0].style.background ="orange";
 
     }
     else if (30 >= totalScore && totalScore > 21) {
